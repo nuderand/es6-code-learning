@@ -1,0 +1,30 @@
+{
+  "name": "es6-code-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "auth.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "request": "^2.65.0",
+    "vows": "^0.8.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuderand/es6-code-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuderand/es6-code-learning/issues"
+  },
+  "homepage": "https://github.com/nuderand/es6-code-learning#readme"
+}

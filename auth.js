@@ -21,14 +21,11 @@ class Auth {
     self.user = user;
     self.pass = pass;
     self.hasAuth = true;
-
-    return 'hello';
-  }
-
-  // static methods
-  static distance(a, b) {
-    if (typeof a == 'number') {
-      return a + b;
+    let header = user + ':' + (pass || '');
+    if (sendImmediately || typeof sendImmediately === 'undefined')  {
+      let authHeader = 'Basic' + Helper.toBase(header);
+      self.sendAuth = true;
+      return authHeader;
     }
   }
 }
@@ -41,7 +38,7 @@ class Request extends EventEmitter {
     this.auth = {
       'user': 'user',
       'pass': 'pass',
-      'sendImmediately': false
+      'sendImmediately': true
     }
     this.on('error', this.occurError);
   }
@@ -51,12 +48,21 @@ class Request extends EventEmitter {
   }
 }
 
+class Helper {
+  constructor() {
+    this.name = 'Helper methods';
+  }
+
+  static toBase(str) {
+    return (new Buffer(str || '', 'utf8')).toString('base64');
+  }
+}
+
+console.log(Helper.toBase('testtest'));
+
 var request = new Request();
 console.log(request);
 
 var a = new Auth(request);
-a.basic(request.auth.user, request.auth.pass, request.auth.sendImmediately);
-a.basic(10, request.auth.pass, request.auth.sendImmediately);
-
-// static
-console.log(Auth.distance(1, 5));
+console.log(a.basic(request.auth.user, request.auth.pass, request.auth.sendImmediately));
+a.basic(10, request.auth.pass, request.auth.sendImmediately); // error

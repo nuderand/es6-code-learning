@@ -1,2 +1,2 @@
 var assert = require('assert'),
-    PromiseRequest = './../build/promise-request.js';
+    PromiseRequest = require('./../build/promise-request.js');

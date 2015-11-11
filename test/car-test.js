@@ -15,5 +15,10 @@ describe('Car', function () {
       var car = new Car(opts);
       assert.equal(opts.number * 2, car.double);
     });
+    it('should not return double number', function () {
+      var opts = { number: 20 };
+      var car = new Car(opts);
+      assert.notEqual(opts.number , car.double);
+    });
   });
 });

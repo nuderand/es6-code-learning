@@ -1,0 +1,76 @@
+{"level":"info","message":"info This is an information message","timestamp":"2015-11-14T07:46:59.783Z"}
+{"level":"info","message":"This is an information message","timestamp":"2015-11-14T07:48:57.883Z"}
+{"foo":"bar","level":"info","message":"This is danger message","timestamp":"2015-11-14T07:48:57.887Z"}
+{"level":"info","message":"This is an information message","timestamp":"2015-11-14T07:49:10.785Z"}
+{"foo":"bar","level":"info","message":"This is danger message","timestamp":"2015-11-14T07:49:10.789Z"}
+{"level":"info","message":"This is an information message","timestamp":"2015-11-14T07:50:31.570Z"}
+{"foo":"bar","level":"info","message":"This is danger message","timestamp":"2015-11-14T07:50:31.573Z"}
+{"level":"error","message":"error","timestamp":"2015-11-14T07:50:31.574Z"}
+{"level":"info","message":"This is an information message","timestamp":"2015-11-14T07:51:48.554Z"}
+{"foo":"bar","level":"info","message":"This is danger message","timestamp":"2015-11-14T07:51:48.558Z"}
+{"level":"error","message":"error","timestamp":"2015-11-14T07:51:48.558Z"}
+{"level":"warn","message":"warn","timestamp":"2015-11-14T07:51:48.559Z"}
+{"level":"info","message":"This is an information message","timestamp":"2015-11-14T07:52:36.543Z"}
+{"foo":"bar","level":"info","message":"This is danger message","timestamp":"2015-11-14T07:52:36.548Z"}
+{"level":"error","message":"error","timestamp":"2015-11-14T07:52:36.549Z"}
+{"level":"debug","message":"debug","timestamp":"2015-11-14T07:52:36.550Z"}
+{"level":"warn","message":"warn","timestamp":"2015-11-14T07:52:36.550Z"}
+{"level":"info","message":"This is an information message","timestamp":"2015-11-14T07:53:45.837Z"}
+{"foo":"bar","level":"info","message":"This is danger message","timestamp":"2015-11-14T07:53:45.841Z"}
+{"level":"error","message":"error","timestamp":"2015-11-14T07:53:45.841Z"}
+{"level":"debug","message":"debug","timestamp":"2015-11-14T07:53:45.841Z"}
+{"level":"warn","message":"warn","timestamp":"2015-11-14T07:53:45.842Z"}
+{"level":"verbose","message":"verbose","timestamp":"2015-11-14T07:53:45.842Z"}
+{"level":"info","message":"This is an information message","timestamp":"2015-11-14T07:54:33.769Z"}
+{"foo":"bar","level":"info","message":"This is danger message","timestamp":"2015-11-14T07:54:33.773Z"}
+{"level":"error","message":"error","timestamp":"2015-11-14T07:54:33.774Z"}
+{"level":"debug","message":"debug","timestamp":"2015-11-14T07:54:33.774Z"}
+{"level":"warn","message":"warn","timestamp":"2015-11-14T07:54:33.774Z"}
+{"level":"verbose","message":"verbose","timestamp":"2015-11-14T07:54:33.775Z"}
+{"level":"info","message":"This is an information message","timestamp":"2015-11-14T07:54:43.662Z"}
+{"foo":"bar","level":"info","message":"This is danger message","timestamp":"2015-11-14T07:54:43.666Z"}
+{"level":"error","message":"error","timestamp":"2015-11-14T07:54:43.666Z"}
+{"level":"debug","message":"debug","timestamp":"2015-11-14T07:54:43.667Z"}
+{"level":"warn","message":"warn","timestamp":"2015-11-14T07:54:43.667Z"}
+{"level":"verbose","message":"verbose","timestamp":"2015-11-14T07:54:43.667Z"}
+{"level":"silly","message":"silly","timestamp":"2015-11-14T07:54:43.667Z"}
+{"level":"info","message":"This is an information message","timestamp":"2015-11-14T10:49:43.421Z"}
+{"foo":"bar","level":"info","message":"This is danger message","timestamp":"2015-11-14T10:49:43.424Z"}
+{"level":"error","message":"error","timestamp":"2015-11-14T10:49:43.424Z"}
+{"level":"debug","message":"debug","timestamp":"2015-11-14T10:49:43.424Z"}
+{"level":"warn","message":"warn","timestamp":"2015-11-14T10:49:43.425Z"}
+{"level":"verbose","message":"verbose","timestamp":"2015-11-14T10:49:43.425Z"}
+{"level":"silly","message":"silly","timestamp":"2015-11-14T10:49:43.425Z"}
+{"level":"info","message":"This is an information message","timestamp":"2015-11-14T10:50:13.545Z"}
+{"foo":"bar","level":"info","message":"This is danger message","timestamp":"2015-11-14T10:50:13.548Z"}
+{"level":"error","message":"error","timestamp":"2015-11-14T10:50:13.549Z"}
+{"level":"debug","message":"debug","timestamp":"2015-11-14T10:50:13.549Z"}
+{"level":"warn","message":"warn","timestamp":"2015-11-14T10:50:13.549Z"}
+{"level":"verbose","message":"verbose","timestamp":"2015-11-14T10:50:13.549Z"}
+{"level":"silly","message":"silly","timestamp":"2015-11-14T10:50:13.550Z"}
+{"level":"info","message":"This is an information message","timestamp":"2015-11-14T10:51:34.155Z"}
+{"foo":"bar","level":"info","message":"This is danger message","timestamp":"2015-11-14T10:51:34.158Z"}
+{"level":"error","message":"error","timestamp":"2015-11-14T10:51:34.159Z"}
+{"level":"debug","message":"debug","timestamp":"2015-11-14T10:51:34.159Z"}
+{"level":"warn","message":"warn","timestamp":"2015-11-14T10:51:34.159Z"}
+{"level":"verbose","message":"verbose","timestamp":"2015-11-14T10:51:34.159Z"}
+{"level":"silly","message":"silly","timestamp":"2015-11-14T10:51:34.160Z"}
+{"level":"error","message":"Found error at Sat Nov 14 2015 19:51:34 GMT+0900 (JST)","timestamp":"2015-11-14T10:51:34.162Z"}
+{"level":"info","message":"Found error at Error: chill winston","timestamp":"2015-11-14T10:51:34.162Z"}
+{"level":"info","message":"Found error at /WUT/","timestamp":"2015-11-14T10:51:34.163Z"}
+{"level":"info","message":"Found error at true","timestamp":"2015-11-14T10:51:34.163Z"}
+{"level":"info","message":"Found error at 100","timestamp":"2015-11-14T10:51:34.163Z"}
+{"level":"info","message":"Found error at 1, 2, 3","timestamp":"2015-11-14T10:51:34.164Z"}
+{"level":"info","message":"This is an information message","timestamp":"2015-11-14T10:52:25.136Z"}
+{"foo":"bar","level":"info","message":"This is danger message","timestamp":"2015-11-14T10:52:25.138Z"}
+{"level":"error","message":"error","timestamp":"2015-11-14T10:52:25.139Z"}
+{"level":"debug","message":"debug","timestamp":"2015-11-14T10:52:25.139Z"}
+{"level":"warn","message":"warn","timestamp":"2015-11-14T10:52:25.139Z"}
+{"level":"verbose","message":"verbose","timestamp":"2015-11-14T10:52:25.139Z"}
+{"level":"silly","message":"silly","timestamp":"2015-11-14T10:52:25.140Z"}
+{"level":"error","message":"Found error at Sat Nov 14 2015 19:52:25 GMT+0900 (JST)","timestamp":"2015-11-14T10:52:25.142Z"}
+{"level":"info","message":"Found error at Error: chill winston","timestamp":"2015-11-14T10:52:25.142Z"}
+{"level":"info","message":"Found error at /WUT/","timestamp":"2015-11-14T10:52:25.143Z"}
+{"level":"info","message":"Found error at true","timestamp":"2015-11-14T10:52:25.143Z"}
+{"level":"info","message":"Found error at 100","timestamp":"2015-11-14T10:52:25.143Z"}
+{"level":"info","message":"Found error at 1, 2, 3","timestamp":"2015-11-14T10:52:25.143Z"}

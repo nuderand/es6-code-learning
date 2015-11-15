@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Socket Example</title>
+  <script src="http://localhost:8080/socket.io.js"></script>
+  <script>
+    var socket = io('http://localhost:8000');
+    socket.on('connect', function() {
+      console.log('connect')
+    });
+    socket.emit('users');
+    socket.on('news', function (data) {
+      console.log(data);
+      socket.emit('my other event', { my: 'data' });
+    });
+    function stopNews() {
+      socket.emit('stopNews');
+    }
+</script>
+</head>
+<body>
+<h1>Socket</h1>
+<button onclick="stopNews()">Clear interval</button>
+</body>
+</html>
